@@ -8,7 +8,7 @@ def Ticket(age):
     if age < 0:
         return("INVALID INPUT, you age can't be less than 0","")
     elif age > 130:
-        return("INVALID INPUT, you age can't be more than 130","")
+        return("INVALID INPUT, HOW OLD ARE YOU? Your age can't be more than 130","")
     elif age >= 100:
         return("Hello old pal your ticket price is on its way",15)
     elif age >= 0 and age < 18:
